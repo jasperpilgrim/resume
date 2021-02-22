@@ -1,7 +1,8 @@
-# resume
-Resume in HTML (hacked to pieces from https://jsonresume.org/)
+# Resume
 
 ## [Link to resume](https://htmlpreview.github.io/?https://github.com/jasperpilgrim/resume/blob/main/index.html)
+
+Resume in HTML (hacked to pieces from https://jsonresume.org/)
 
 - Needed a resume. https://resumake.io/ to the rescue.
 - Saved a PDF. 
