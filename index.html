@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Jasper Pilgrim</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Jasper Pilgrim
+    </span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>jasperpilgrim@gmail.com</span>
+      <span class='divider'>|</span>
+      <span class='phone'>(662) 739-8833</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Sallis, Mississippi, US
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://www.github.com/jasperpilgrim'>https://www.github.com/jasperpilgrim</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SUMMARY</span>
+    </div>
+    <div class='sectionContent'>
+      <span>I'm always learning. I like to find ways to communicate complex ideas in simple ways. I'm an avid reader and attempt to gain something from every pick. I love talking with people and sharing ideas, and I love increasing my knowledge by listening and trying to understanding others' points of view.
+
+        <p>Many moons ago I spent time coding minor C snippets for Linux automation. Now I've made the switch to macOS but I'm still stuck in the terminal.</p>
+        
+        <p>If I like your repo, I will devour your documentation. The best documentation might be self-documentation, but good documentation is better than no documentation. Always room to improve.</p>
+        
+        <p>Currently I spend my time increasing my knowledge of HTML/CSS and learning basic JavaScript. Not religious about editors but I primarily use VS Code and Emacs (Spacemacs config).</p>
+        
+        <p>Constantly finding new uses for Raspberry Pis.</p> </span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Farmer
+	        </span>
+	        <span class='date'>
+	          2016 &mdash; Present
+	        </span>
+	      </div>
+	      <div>Family Farm</div>
+	      <ul class='highlights'>
+	        <li>Feeding and caring for animals</li>
+	        <li>Tending to small garden</li>
+        </ul>
+        
+        <div class='blockHeader'>
+	        <span class='title'>
+	          Sales Associate
+	        </span>
+	        <span class='date'>
+	          2014 &mdash; 2016
+	        </span>
+	      </div>
+	      <div>A-Z Beauty Supply</div>
+	      <ul class='highlights'>
+	        <li>Cashier</li>
+          <li>Customer Service</li>
+          <li>Inventory Management</li>
+        </ul>
+
+        <div class='blockHeader'>
+	        <span class='title'>
+	          Sales Associate
+	        </span>
+	        <span class='date'>
+	          2012 &mdash; 2014
+	        </span>
+	      </div>
+	      <div>Family Farm</div>
+	      <ul class='highlights'>
+	        <li>Cashier</li>
+          <li>Customer Service</li>
+          <li>Inventory Management</li>
+        </ul>
+
+        <div class='blockHeader'>
+	        <span class='title'>
+	          Farmer
+	        </span>
+	        <span class='date'>
+	          2006 &mdash; 2012
+	        </span>
+	      </div>
+	      <div>Family Farm</div>
+	      <ul class='highlights'>
+	        <li>Fed and caring for animals</li>
+	        <li>Tended to small garden</li>
+        </ul>
+
+
+			</div>
+    </div>
+  </div>
+ 
+  <div class='sectionLine'></div>
+
+	<div id='volunteer' class="sectionBlock">
+    <div class='sectionName'>
+      <span>VOLUNTEERING</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>One Laptop Per Child (OLPC)</span>
+        <span class='date'>
+          2009 &mdash; 2010
+        </span>
+        <div class='website'><a href='https://www.onelaptopperchild.org/'>https://www.onelaptopperchild.org/</a></div>
+        <ul class='highlights'>
+          <li>Assessed machine's ability to handle high-quality images embedded in PDF documents</li>
+          <li>Generally tinkered around with the Sugar user-interface</li>
+          <li>Random tech-support in IRC chat</li>
+        </ul>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          Holmes Community College
+        </span>
+        <span class='date'>
+          2012 &mdash; 2013
+        </span>
+        <div class=''>
+          Associate's Degree  - General Education - Incomplete
+        </div>
+
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Web Development:</span>
+          <span>HTML</span>, 
+          <span>CSS</span>, 
+          <span>Basic Javascript</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Misc:</span>
+          <span>Technical Writing</span>, 
+          <span>Git</span>, 
+          <span>Command Line</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='languages' class="sectionBlock">
+    <div class='sectionName'>
+      <span>LANGUAGES</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='language'>English</span>
+      <span class='fluency'><em>(Native speaker)</em></span>
+      <span class='language'>Arabic (Egyptian)</span>
+      <span class='fluency'><em>(Basic)</em></span>
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	</body>
+</html>
